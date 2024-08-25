@@ -1,0 +1,21 @@
+device-name:
+  attributes:
+    - version:2
+    - type:device
+  validity: 5
+  ip: 10.10.0.20/24
+  acl_groups:
+    - App A
+    - App B
+    - media
+
+bob-phone-6:
+  attributes:
+    - version:2
+    - type:device
+    - form:phone
+  validity: 1
+  ip: 10.10.0.21/24
+  acl_groups:
+    - App C
+    - App Z
